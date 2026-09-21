@@ -27,6 +27,7 @@
         p.sacremoses
         p.pillow
         p.openai
+        p.sentence-transformers
       ] ++ (config.course.extraPythonPackages p)))
       black
     ];
